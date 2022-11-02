@@ -9,8 +9,8 @@ spring:
     database: mysql
     hibernate:
       ddl-auto: create
-  server:
-    port: 5050
   jackson:
     serialization:
       fail-on-empty-beans: false
+server:
+  port: 5050
